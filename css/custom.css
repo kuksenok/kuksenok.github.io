@@ -1,3 +1,9 @@
+    .illustration{float:right;margin-left:10px;margin-bottom:10px;border:none;width:280px;}
+    .abstract{padding-left:15px;text-align:justify}
+p{
+    text-align:justify
+}
+
 body {
     padding-top: 50px; /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
 }
