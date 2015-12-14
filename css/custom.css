@@ -1,8 +1,10 @@
-    .illustration{float:right;margin-left:10px;margin-bottom:10px;border:none;width:280px;}
+    .illustration{float:right;margin-left:10px;margin-bottom:10px;border:none;width:280px; clear:both}
     .abstract{padding-left:15px;text-align:justify}
 p{
     text-align:justify
 }
+.break{height:20px;clear:both}
+.break-an{height:50px;}
 .page-header small{
     font-variant: small-caps
 }
