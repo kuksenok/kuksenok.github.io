@@ -3,6 +3,9 @@
 p{
     text-align:justify
 }
+.page-header small{
+    font-variant: small-caps
+}
 
 body {
     padding-top: 50px; /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
