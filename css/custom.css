@@ -9,6 +9,10 @@ p{
     font-variant: small-caps
 }
 
+.morepics img {
+    width:120px;
+}
+
 body {
     padding-top: 50px; /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
 }
@@ -35,4 +39,49 @@ body {
 	background-color: #fff;
 	text-align: center;
 	padding: 30px 0;
+}
+
+.h2{
+        font-size: 30px;
+}
+
+.item {
+    padding-top:50px;
+    clear:both;
+}
+.item .small{
+    float:left;
+    padding:10px;
+    padding-right:20px;
+}
+.item .small img {
+    width:150px;
+}
+.item .description {
+    margin-left:180px;
+}
+.item .title {
+    font-size: 18px;
+}
+.item .bigtitle {
+    font-size: 22px;
+    padding:5px;
+    background-color:#eee;
+    font-weight: bold;
+}
+.item .subtitle {
+    font-style: italic;
+}
+.item .lbl {
+    display: block;
+    align:right;
+}
+h2, h1{
+    padding-top:30px;
+    clear:both;
+}
+
+.tk {
+    color:#fff;
+    background-color:#ff0;
 }
