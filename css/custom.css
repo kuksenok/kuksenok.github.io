@@ -56,13 +56,21 @@ body {
     padding-top:50px;
     clear:both;
 }
-.item .small{
+.item .small, .item .small_enlargeable{
     float:left;
     padding:10px;
-    padding-right:20px;
+    margin-right:20px;
+    background-color: white;
+    width:160px;
 }
 .item .small img {
-    width:150px;
+  width:100%
+}
+.item .small_enlargeable:hover {
+    width:330px;
+    position:absolute;
+    left:-165px;
+    border:solid 1px #222;
 }
 .item .description {
     margin-left:180px;
